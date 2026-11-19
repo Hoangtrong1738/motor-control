@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Kicad\DriverMotorBTS\DriverMotorBTS.kicad_sch</source>
+    <date>2026-11-17T11:48:25</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DriverMotorBTS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2200u</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b128e699-1dd8-4c25-a199-072c79eb5530</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51b758ef-3172-444c-ac9b-8abf96ff2eeb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1a76adb-2ef6-4bc6-8884-18e3c7115af7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d80765e-f165-429f-9ff8-268d3695e2b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8c6b03b-d3e8-4949-9a06-544298c243b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d688a968-d637-4ce3-8adb-247c8e3cd57a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>010dbf0f-a23a-400c-81c3-1f6b65924aec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7d94398-3bff-47ca-9538-4cd580b58ce4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd47c5eb-7863-49bf-8e7a-04237da66bc9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>KF7.62-2P</value>
+      <footprint>2P:2P</footprint>
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+      </fields>
+      <libsource lib="KF7.62-2P" part="KF7.62-2P" description="Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ."/>
+      <property name="MF" value="KEFA ELECTRONICS"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="KF7.62-2P"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a48a1b99-c7a6-402c-92cd-15d2acf8e4de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e021a453-666e-4fd7-8b56-cd63603bf13b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38d2fb9d-c59b-4148-b5de-72e150a2847d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15a8aad0-f68c-4965-95e9-a2123a71d203</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31ae6f1b-aab6-47db-b5fc-0e5d171d5b68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00b2dc2c-34bc-4037-b93d-ee2fdc4583a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80c36f9f-9bf3-45bb-b7cb-24a62f17d8cb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7f7e178-60a5-4528-86b5-b3dabd43dc33</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5aee034-32eb-4454-b0d2-cbd28db55ee0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a63953a1-0124-4d81-8b8c-32e9f972a5a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75805281-1039-4170-99e8-d23b15073666</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a009414a-5b6c-40e4-8e5c-dd56d0898fd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97ea005e-ba11-4735-98bf-34b896dbe8cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58389f54-2b72-4b64-b70f-3a6d381fd319</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>727af8ee-4004-4ec5-b609-90e151a3c9bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e399ea89-3221-43fc-bc71-154f134a5c00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51792113-1d5e-44f8-8006-718ed0b0a409</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c42c431-1259-452b-ba26-029212436db7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ec134fc-0502-4ea1-a280-d5849dc24ff3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fbf5ff7-7892-4849-9b49-78a5416cbabd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5d773a7-a04a-4af2-9b17-74cb6281c615</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bb489ea-d9d2-4090-9daf-fb7d0a79beca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1754c6ce-2768-4110-8e93-2b9affe6215a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c48be69-a2a1-4711-8089-03f6902eeaa5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85cf0e6b-288d-48f0-b49b-4c7e5760e301</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff6d67b6-05a7-4250-bb98-472718b921c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb99ea73-3ed8-4a0a-85b4-96c6b62ae5b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33ebf60a-9625-4ed5-8ab2-fc0ac9d8ccf1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb6a10b-589a-448f-ba8c-f17ea68e4fa1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d02f1000-fa66-484c-a89c-97bb96b0eaf2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5cdae6c-bb93-4dd7-b702-b64789de691a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c34cb451-3988-4059-9ad9-0c3cb3865738</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45ce3a49-6d35-44a3-8e72-878ac8af21e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91005fb3-7445-4d1b-97a6-cdbf5db3f9f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d711e454-a7ad-4a5e-ab63-a94e8c168563</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>061d5af1-656b-4912-80ec-508caed50734</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b633816-7e77-44ce-8071-c4e814a9133b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d79187b4-4df8-4ca9-8c77-dd9c2e709309</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c061b31f-08fc-4c28-8235-3bf39c82125e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd2cddb-30a4-4372-ac00-8ac13fd07ef8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>454cdf9e-53dd-44f5-adfa-fd085c8768e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8d5fe04-51cc-4576-a98a-1ae8f2bd681a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20f302b3-f682-431d-9e50-96ec2d3cb114</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R40">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e57b5aea-83cf-4079-b50d-462519f42a38</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R41">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1877661-55da-42d6-adef-03b3c7902fcb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d02a867-15ac-422b-af0b-cace34ebeda2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf8b8fce-84da-4ab4-977d-8b363534f5da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9cfe898-bc45-4e88-af99-bb3d77a05329</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09504796-aa34-466c-8b1b-a08c4e6250b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24148472-a752-45b4-afe8-f5a1ff792452</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c8ef54-1a55-4651-97a3-d90b08444199</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e292faf-b4e6-40c0-9143-42c5d0941cbd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30315996-d0bf-4379-83eb-874d67c2d049</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>SN74HC244DWR</value>
+      <footprint>ul_SN74HC244DWR:DW20</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/sn74hc244</datasheet>
+      <fields>
+        <field name="Footprint">ul_SN74HC244DWR:DW20</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/sn74hc244</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_11-04-22" part="SN74HC244DWR" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="SN74HC244DWR"/>
+      <property name="ki_fp_filters" value="DW20 DW20-M DW20-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>131b3a59-2619-46ff-9df2-d4d9f15ca01b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U10">
+      <value>SN74HC244DWR</value>
+      <footprint>ul_SN74HC244DWR:DW20</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/sn74hc244</datasheet>
+      <fields>
+        <field name="Footprint">ul_SN74HC244DWR:DW20</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/sn74hc244</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_11-04-22" part="SN74HC244DWR" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="SN74HC244DWR"/>
+      <property name="ki_fp_filters" value="DW20 DW20-M DW20-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>623501d5-851e-489d-902a-f4837d251a59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8408622e-bea8-4f7b-b991-2d779dffdc1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U12">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e168527-fa2a-4702-9a65-46a3dc3c5525</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U13">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>449c3f46-57d0-47c6-a65f-9a4c7833dbb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U14">
+      <value>BTS7960B</value>
+      <footprint>ul_BTS7960B:BTS7960B_INF</footprint>
+      <datasheet>BTS7960B</datasheet>
+      <fields>
+        <field name="Footprint">ul_BTS7960B:BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-11-14_10-56-20" part="BTS7960B" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="DriverMotorBTS.kicad_sch"/>
+      <property name="ki_keywords" value="BTS7960B"/>
+      <property name="ki_fp_filters" value="BTS7960B_INF BTS7960B_INF-M BTS7960B_INF-L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0885bd41-3343-4296-a2b5-8a12b74bcff3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2026-11-14_10-56-20" part="BTS7960B">
+      <docs>BTS7960B</docs>
+      <footprints>
+        <fp>BTS7960B_INF</fp>
+        <fp>BTS7960B_INF-M</fp>
+        <fp>BTS7960B_INF-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BTS7960B</field>
+        <field name="Footprint">BTS7960B_INF</field>
+        <field name="Datasheet">BTS7960B</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="IN" type="unspecified"/>
+        <pin num="3" name="INH" type="unspecified"/>
+        <pin num="4" name="OUT" type="unspecified"/>
+        <pin num="5" name="SR" type="unspecified"/>
+        <pin num="6" name="IS" type="unspecified"/>
+        <pin num="7" name="VS" type="unspecified"/>
+        <pin num="8" name="OUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="2026-11-14_11-04-22" part="SN74HC244DWR">
+      <docs>https://www.ti.com/lit/gpn/sn74hc244</docs>
+      <footprints>
+        <fp>DW20</fp>
+        <fp>DW20-M</fp>
+        <fp>DW20-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC244DWR</field>
+        <field name="Footprint">DW20</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/sn74hc244</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="*1OE" type="input"/>
+        <pin num="2" name="1A1" type="input"/>
+        <pin num="3" name="2Y4" type="output"/>
+        <pin num="4" name="1A2" type="input"/>
+        <pin num="5" name="2Y3" type="output"/>
+        <pin num="6" name="1A3" type="input"/>
+        <pin num="7" name="2Y2" type="output"/>
+        <pin num="8" name="1A4" type="input"/>
+        <pin num="9" name="2Y1" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="2A1" type="input"/>
+        <pin num="12" name="1Y4" type="output"/>
+        <pin num="13" name="2A2" type="input"/>
+        <pin num="14" name="1Y3" type="output"/>
+        <pin num="15" name="2A3" type="input"/>
+        <pin num="16" name="1Y2" type="output"/>
+        <pin num="17" name="2A4" type="input"/>
+        <pin num="18" name="1Y1" type="output"/>
+        <pin num="19" name="*2OE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KF7.62-2P" part="KF7.62-2P">
+      <description>Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KF7.62-2P</field>
+        <field name="Footprint">KF7.62-2P:2P</field>
+        <field name="Datasheet"/>
+        <field name="Description">Đầu nối khối chắn 2 vị trí, dây dẫn 12~22 AWG, 450V 24A, kiểu xuyên lỗ.</field>
+        <field name="MF">KEFA ELECTRONICS</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=snap</field>
+        <field name="MP">KF7.62-2P</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/KF7.62-2P/Cixi+Kefa+Electronics/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole with connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2026-11-14_10-56-20">
+      <uri>D:/Kicad/KiCad_My_Libraries/ul_BTS7960B/2026-11-14_10-56-20.kicad_sym</uri>
+    </library>
+    <library logical="2026-11-14_11-04-22">
+      <uri>D:/Kicad/KiCad_My_Libraries/ul_SN74HC244DWR/2026-11-14_11-04-22.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="KF7.62-2P">
+      <uri>D:/Kicad/KiCad_My_Libraries/KF7.62-2P/KF7.62-2P.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Motor1+" class="Default">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U3" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/Motor1-" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U4" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/Motor2+" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U11" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/Motor2-" class="Default">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U12" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/Motor3+" class="Default">
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U5" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/Motor3-" class="Default">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U6" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/Motor4+" class="Default">
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U13" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/Motor4-" class="Default">
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U14" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/Motor5+" class="Default">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U7" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/Motor5-" class="Default">
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U8" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/Motor6+" class="Default">
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U1" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="12" name="/Motor6-" class="Default">
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OUT_4" pintype="unspecified"/>
+      <node ref="U2" pin="8" pinfunction="OUT_8" pintype="unspecified"/>
+    </net>
+    <net code="13" name="ENL1" class="Default">
+      <node ref="U12" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U4" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U6" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U9" pin="5" pinfunction="2Y3_5" pintype="output"/>
+    </net>
+    <net code="14" name="ENL2" class="Default">
+      <node ref="U10" pin="5" pinfunction="2Y3_5" pintype="output"/>
+      <node ref="U14" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+    </net>
+    <net code="15" name="ENR1" class="Default">
+      <node ref="U11" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U3" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U5" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U9" pin="3" pinfunction="2Y4_3" pintype="output"/>
+    </net>
+    <net code="16" name="ENR2" class="Default">
+      <node ref="U1" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U10" pin="3" pinfunction="2Y4_3" pintype="output"/>
+      <node ref="U13" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+      <node ref="U7" pin="3" pinfunction="INH_3" pintype="unspecified"/>
+    </net>
+    <net code="17" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U10" pin="1" pinfunction="*1OE_1" pintype="input"/>
+      <node ref="U10" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U10" pin="19" pinfunction="*2OE_19" pintype="input"/>
+      <node ref="U11" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U12" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U13" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U14" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U5" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U6" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U7" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U8" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U9" pin="1" pinfunction="*1OE_1" pintype="input"/>
+      <node ref="U9" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U9" pin="19" pinfunction="*2OE_19" pintype="input"/>
+    </net>
+    <net code="18" name="IN_M1L" class="Default">
+      <node ref="U4" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="16" pinfunction="1Y2_16" pintype="output"/>
+    </net>
+    <net code="19" name="IN_M1R" class="Default">
+      <node ref="U3" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="18" pinfunction="1Y1_18" pintype="output"/>
+    </net>
+    <net code="20" name="IN_M2L" class="Default">
+      <node ref="U12" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="12" pinfunction="1Y4_12" pintype="output"/>
+    </net>
+    <net code="21" name="IN_M2R" class="Default">
+      <node ref="U11" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="14" pinfunction="1Y3_14" pintype="output"/>
+    </net>
+    <net code="22" name="IN_M3L" class="Default">
+      <node ref="U6" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="7" pinfunction="2Y2_7" pintype="output"/>
+    </net>
+    <net code="23" name="IN_M3R" class="Default">
+      <node ref="U5" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U9" pin="9" pinfunction="2Y1_9" pintype="output"/>
+    </net>
+    <net code="24" name="IN_M4L" class="Default">
+      <node ref="U10" pin="16" pinfunction="1Y2_16" pintype="output"/>
+      <node ref="U14" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+    </net>
+    <net code="25" name="IN_M4R" class="Default">
+      <node ref="U10" pin="18" pinfunction="1Y1_18" pintype="output"/>
+      <node ref="U13" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+    </net>
+    <net code="26" name="IN_M5L" class="Default">
+      <node ref="U10" pin="12" pinfunction="1Y4_12" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+    </net>
+    <net code="27" name="IN_M5R" class="Default">
+      <node ref="U10" pin="14" pinfunction="1Y3_14" pintype="output"/>
+      <node ref="U7" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+    </net>
+    <net code="28" name="IN_M6L" class="Default">
+      <node ref="U10" pin="9" pinfunction="2Y1_9" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+    </net>
+    <net code="29" name="IN_M6R" class="Default">
+      <node ref="U1" pin="2" pinfunction="IN_2" pintype="unspecified"/>
+      <node ref="U10" pin="7" pinfunction="2Y2_7" pintype="output"/>
+    </net>
+    <net code="30" name="LPWM1" class="Default">
+      <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="1A2_4" pintype="input"/>
+    </net>
+    <net code="31" name="LPWM2" class="Default">
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="1A4_8" pintype="input"/>
+    </net>
+    <net code="32" name="LPWM3" class="Default">
+      <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U9" pin="13" pinfunction="2A2_13" pintype="input"/>
+    </net>
+    <net code="33" name="LPWM4" class="Default">
+      <node ref="J12" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="1A2_4" pintype="input"/>
+    </net>
+    <net code="34" name="LPWM5" class="Default">
+      <node ref="J13" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="1A4_8" pintype="input"/>
+    </net>
+    <net code="35" name="LPWM6" class="Default">
+      <node ref="J14" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="2A2_13" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U1-IS)" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="37" name="Net-(U1-SR)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Net-(U2-IS)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="39" name="Net-(U2-SR)" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="40" name="Net-(U3-IS)" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(U3-SR)" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="42" name="Net-(U4-IS)" class="Default">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(U4-SR)" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(U5-IS)" class="Default">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="45" name="Net-(U5-SR)" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="46" name="Net-(U6-IS)" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="47" name="Net-(U6-SR)" class="Default">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="48" name="Net-(U7-IS)" class="Default">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="49" name="Net-(U7-SR)" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="50" name="Net-(U8-IS)" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="51" name="Net-(U8-SR)" class="Default">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="52" name="Net-(U11-IS)" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="53" name="Net-(U11-SR)" class="Default">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="54" name="Net-(U12-IS)" class="Default">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="55" name="Net-(U12-SR)" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="56" name="Net-(U13-IS)" class="Default">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="57" name="Net-(U13-SR)" class="Default">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="58" name="Net-(U14-IS)" class="Default">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="IS_6" pintype="unspecified"/>
+    </net>
+    <net code="59" name="Net-(U14-SR)" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="SR_5" pintype="unspecified"/>
+    </net>
+    <net code="60" name="RPWM1" class="Default">
+      <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="1A1_2" pintype="input"/>
+    </net>
+    <net code="61" name="RPWM2" class="Default">
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="1A3_6" pintype="input"/>
+    </net>
+    <net code="62" name="RPWM3" class="Default">
+      <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U9" pin="11" pinfunction="2A1_11" pintype="input"/>
+    </net>
+    <net code="63" name="RPWM4" class="Default">
+      <node ref="J12" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="1A1_2" pintype="input"/>
+    </net>
+    <net code="64" name="RPWM5" class="Default">
+      <node ref="J13" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="1A3_6" pintype="input"/>
+    </net>
+    <net code="65" name="RPWM6" class="Default">
+      <node ref="J14" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U10" pin="11" pinfunction="2A1_11" pintype="input"/>
+    </net>
+    <net code="66" name="VCC" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U9" pin="15" pinfunction="2A3_15" pintype="input"/>
+      <node ref="U9" pin="17" pinfunction="2A4_17" pintype="input"/>
+      <node ref="U9" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+    </net>
+    <net code="67" name="VDC" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U11" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U12" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U13" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U14" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U2" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U3" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U5" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U6" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U7" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+      <node ref="U8" pin="7" pinfunction="VS_7" pintype="unspecified"/>
+    </net>
+    <net code="68" name="VDD" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="2A3_15" pintype="input"/>
+      <node ref="U10" pin="17" pinfunction="2A4_17" pintype="input"/>
+      <node ref="U10" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
